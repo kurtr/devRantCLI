@@ -1,0 +1,30 @@
+{
+  "name": "devrantcli",
+  "version": "1.0.0",
+  "description": "A terminal client for devrant.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurtr/devRantCLI.git"
+  },
+  "keywords": [
+    "devrant",
+    "terminal"
+  ],
+  "author": "Kurt Rohlandt (kurtrohlandt@gmail.com)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/kurtr/devRantCLI/issues"
+  },
+  "homepage": "https://github.com/kurtr/devRantCLI#readme",
+  "dependencies": {
+    "devrant": "0.0.5",
+    "inquirer": "^3.2.0",
+    "request": "^2.81.0",
+    "terminal-kit": "^1.11.1"
+  }
+}
